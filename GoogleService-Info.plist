@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>118564929098-4g99ku3p4d3srkp0gp596rpbj4jb0sdb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.118564929098-4g99ku3p4d3srkp0gp596rpbj4jb0sdb</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCPqxM1xwi2hiHXit1wuyjAGnA2ajagdHM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>118564929098</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>atmevo.atm.chat</string>
+	<key>PROJECT_ID</key>
+	<string>chatapp-cde2e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatapp-cde2e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:118564929098:ios:4af22a9125ef4cb96b30b3</string>
+	<key>DATABASE_URL</key>
+	<string>https://chatapp-cde2e.firebaseio.com</string>
+</dict>
+</plist>

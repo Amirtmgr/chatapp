@@ -3,19 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092875A625248D0C005B14E8 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092875A525248D0C005B14E8 /* Global.swift */; };
 		0996761C2522EE6A007864E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996761B2522EE6A007864E6 /* AppDelegate.swift */; };
 		0996761E2522EE6A007864E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996761D2522EE6A007864E6 /* SceneDelegate.swift */; };
 		099676202522EE6A007864E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996761F2522EE6A007864E6 /* ViewController.swift */; };
 		099676232522EE6A007864E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099676212522EE6A007864E6 /* Main.storyboard */; };
 		099676252522EE6E007864E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099676242522EE6E007864E6 /* Assets.xcassets */; };
 		099676282522EE6E007864E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099676262522EE6E007864E6 /* LaunchScreen.storyboard */; };
+		099676472522F494007864E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 099676462522F494007864E6 /* GoogleService-Info.plist */; };
+		099676622522F939007864E6 /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099676612522F939007864E6 /* ChatUser.swift */; };
+		099676682522F980007864E6 /* FirebaseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099676672522F980007864E6 /* FirebaseConstants.swift */; };
+		0996766B2522F98B007864E6 /* ChatServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996766A2522F98B007864E6 /* ChatServices.swift */; };
+		0996766E2522FD23007864E6 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0996766D2522FD23007864E6 /* MessageModel.swift */; };
+		099676892522FF48007864E6 /* LastMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099676882522FF48007864E6 /* LastMessageModel.swift */; };
+		099676A5252301B8007864E6 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099676A4252301B8007864E6 /* Config.swift */; };
+		099676A825233970007864E6 /* ChatProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099676A725233970007864E6 /* ChatProtocol.swift */; };
+		099676AD2523541C007864E6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099676AB2523541C007864E6 /* ChatViewController.swift */; };
+		099676AE2523541C007864E6 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099676AC2523541C007864E6 /* ChatViewController.xib */; };
+		099676C425235540007864E6 /* SentMsgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099676C225235540007864E6 /* SentMsgTableViewCell.swift */; };
+		099676C525235540007864E6 /* SentMsgTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099676C325235540007864E6 /* SentMsgTableViewCell.xib */; };
+		099676CA2523554E007864E6 /* RecievedMsgTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099676C82523554E007864E6 /* RecievedMsgTableViewCell.swift */; };
+		099676CB2523554E007864E6 /* RecievedMsgTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 099676C92523554E007864E6 /* RecievedMsgTableViewCell.xib */; };
+		099676E2252398F7007864E6 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099676E1252398F7007864E6 /* Routes.swift */; };
+		C6E3FCD4EA1EBDAE3AE96AC0 /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E3A1BEF0E80C5083E7830B /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		092875A525248D0C005B14E8 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		099676182522EE6A007864E6 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0996761B2522EE6A007864E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0996761D2522EE6A007864E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,24 @@
 		099676242522EE6E007864E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		099676272522EE6E007864E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		099676292522EE6E007864E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099676462522F494007864E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		099676612522F939007864E6 /* ChatUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
+		099676672522F980007864E6 /* FirebaseConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseConstants.swift; sourceTree = "<group>"; };
+		0996766A2522F98B007864E6 /* ChatServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatServices.swift; sourceTree = "<group>"; };
+		0996766D2522FD23007864E6 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		099676882522FF48007864E6 /* LastMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastMessageModel.swift; sourceTree = "<group>"; };
+		099676A4252301B8007864E6 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		099676A725233970007864E6 /* ChatProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatProtocol.swift; sourceTree = "<group>"; };
+		099676AB2523541C007864E6 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		099676AC2523541C007864E6 /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		099676C225235540007864E6 /* SentMsgTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentMsgTableViewCell.swift; sourceTree = "<group>"; };
+		099676C325235540007864E6 /* SentMsgTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SentMsgTableViewCell.xib; sourceTree = "<group>"; };
+		099676C82523554E007864E6 /* RecievedMsgTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecievedMsgTableViewCell.swift; sourceTree = "<group>"; };
+		099676C92523554E007864E6 /* RecievedMsgTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecievedMsgTableViewCell.xib; sourceTree = "<group>"; };
+		099676E1252398F7007864E6 /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		5A0C32EF08CBF9B7619DC217 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		69E3A1BEF0E80C5083E7830B /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CAF9848B5B3DEE2D524D9A3 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E3FCD4EA1EBDAE3AE96AC0 /* Pods_ChatApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +79,8 @@
 			children = (
 				0996761A2522EE6A007864E6 /* ChatApp */,
 				099676192522EE6A007864E6 /* Products */,
+				67A871AE782CF37257445A33 /* Pods */,
+				216189A22F28B6A6BB3C6C03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +95,9 @@
 		0996761A2522EE6A007864E6 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				099676E0252398EB007864E6 /* Helper */,
+				099676602522F911007864E6 /* CoreChat */,
+				099676462522F494007864E6 /* GoogleService-Info.plist */,
 				0996761B2522EE6A007864E6 /* AppDelegate.swift */,
 				0996761D2522EE6A007864E6 /* SceneDelegate.swift */,
 				0996761F2522EE6A007864E6 /* ViewController.swift */,
@@ -67,6 +109,116 @@
 			path = ChatApp;
 			sourceTree = "<group>";
 		};
+		099676602522F911007864E6 /* CoreChat */ = {
+			isa = PBXGroup;
+			children = (
+				099676AA252353E1007864E6 /* ViewController */,
+				099676662522F957007864E6 /* Services */,
+				099676652522F94B007864E6 /* Constants */,
+				099676642522F944007864E6 /* Model */,
+			);
+			path = CoreChat;
+			sourceTree = "<group>";
+		};
+		099676642522F944007864E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				099676612522F939007864E6 /* ChatUser.swift */,
+				0996766D2522FD23007864E6 /* MessageModel.swift */,
+				099676882522FF48007864E6 /* LastMessageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		099676652522F94B007864E6 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				099676672522F980007864E6 /* FirebaseConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		099676662522F957007864E6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0996766A2522F98B007864E6 /* ChatServices.swift */,
+				099676A725233970007864E6 /* ChatProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		099676AA252353E1007864E6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				099676CD2523556B007864E6 /* ChatViewController */,
+				099676B125235438007864E6 /* TableViewCell */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		099676B125235438007864E6 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				099676C12523552A007864E6 /* ReceivedMsgViewCell */,
+				099676C025235514007864E6 /* SentMsgViewCell */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		099676C025235514007864E6 /* SentMsgViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				099676C225235540007864E6 /* SentMsgTableViewCell.swift */,
+				099676C325235540007864E6 /* SentMsgTableViewCell.xib */,
+			);
+			path = SentMsgViewCell;
+			sourceTree = "<group>";
+		};
+		099676C12523552A007864E6 /* ReceivedMsgViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				099676C82523554E007864E6 /* RecievedMsgTableViewCell.swift */,
+				099676C92523554E007864E6 /* RecievedMsgTableViewCell.xib */,
+			);
+			path = ReceivedMsgViewCell;
+			sourceTree = "<group>";
+		};
+		099676CD2523556B007864E6 /* ChatViewController */ = {
+			isa = PBXGroup;
+			children = (
+				099676AB2523541C007864E6 /* ChatViewController.swift */,
+				099676AC2523541C007864E6 /* ChatViewController.xib */,
+			);
+			path = ChatViewController;
+			sourceTree = "<group>";
+		};
+		099676E0252398EB007864E6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				099676A4252301B8007864E6 /* Config.swift */,
+				099676E1252398F7007864E6 /* Routes.swift */,
+				092875A525248D0C005B14E8 /* Global.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		216189A22F28B6A6BB3C6C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69E3A1BEF0E80C5083E7830B /* Pods_ChatApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67A871AE782CF37257445A33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CAF9848B5B3DEE2D524D9A3 /* Pods-ChatApp.debug.xcconfig */,
+				5A0C32EF08CBF9B7619DC217 /* Pods-ChatApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0996762C2522EE6E007864E6 /* Build configuration list for PBXNativeTarget "ChatApp" */;
 			buildPhases = (
+				18B8A25B8E86AA6258BBE500 /* [CP] Check Pods Manifest.lock */,
 				099676142522EE6A007864E6 /* Sources */,
 				099676152522EE6A007864E6 /* Frameworks */,
 				099676162522EE6A007864E6 /* Resources */,
+				33E6BF2305A8D482B4223924 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,20 +279,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				099676282522EE6E007864E6 /* LaunchScreen.storyboard in Resources */,
+				099676C525235540007864E6 /* SentMsgTableViewCell.xib in Resources */,
+				099676472522F494007864E6 /* GoogleService-Info.plist in Resources */,
 				099676252522EE6E007864E6 /* Assets.xcassets in Resources */,
+				099676AE2523541C007864E6 /* ChatViewController.xib in Resources */,
+				099676CB2523554E007864E6 /* RecievedMsgTableViewCell.xib in Resources */,
 				099676232522EE6A007864E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18B8A25B8E86AA6258BBE500 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33E6BF2305A8D482B4223924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatApp/Pods-ChatApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatApp/Pods-ChatApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatApp/Pods-ChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		099676142522EE6A007864E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099676622522F939007864E6 /* ChatUser.swift in Sources */,
+				099676E2252398F7007864E6 /* Routes.swift in Sources */,
+				0996766B2522F98B007864E6 /* ChatServices.swift in Sources */,
+				099676AD2523541C007864E6 /* ChatViewController.swift in Sources */,
+				099676A5252301B8007864E6 /* Config.swift in Sources */,
+				099676A825233970007864E6 /* ChatProtocol.swift in Sources */,
+				099676C425235540007864E6 /* SentMsgTableViewCell.swift in Sources */,
+				0996766E2522FD23007864E6 /* MessageModel.swift in Sources */,
+				092875A625248D0C005B14E8 /* Global.swift in Sources */,
+				099676892522FF48007864E6 /* LastMessageModel.swift in Sources */,
+				099676CA2523554E007864E6 /* RecievedMsgTableViewCell.swift in Sources */,
 				099676202522EE6A007864E6 /* ViewController.swift in Sources */,
 				0996761C2522EE6A007864E6 /* AppDelegate.swift in Sources */,
+				099676682522F980007864E6 /* FirebaseConstants.swift in Sources */,
 				0996761E2522EE6A007864E6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +495,7 @@
 		};
 		0996762D2522EE6E007864E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CAF9848B5B3DEE2D524D9A3 /* Pods-ChatApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +515,7 @@
 		};
 		0996762E2522EE6E007864E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0C32EF08CBF9B7619DC217 /* Pods-ChatApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
